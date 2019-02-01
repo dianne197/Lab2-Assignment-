@@ -1,0 +1,46 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lab2.task5;
+
+/**
+ *
+ * @author 114377
+ */
+public class Lab2Task5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       int c = 25;
+       int d = 5;
+       
+      int result2 = c + d;
+      System.out.println("Sum of two integers: " + result2);
+      
+      int result3 = c - d;
+      System.out.println("Difference of two integers: " + result3);
+      
+      int result4 = c * d;
+      System.out.println("Product of two integers: " + result4);
+      
+      double result5 = result2/2;
+      System.out.println("Average of two integers:" + result5);
+      
+      int result6 = c - d;
+      System.out.println("Distance of two integers: " + result6);
+      
+      if(c < d){
+      System.out.println("Minimum integer is " + c);
+      System.out.println("Maximum integer is " + d);
+    }else{
+      System.out.println("Maximum integer is " + c);
+      System.out.println("Minimum integer is " + d);
+      }
+          
+    }
+    
+}
