@@ -1,0 +1,21 @@
+package lab2.task1;
+
+/**
+ *
+ * @author 114377
+ */
+public class Lab2Task1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int a =25;
+        int b =5;
+        
+        int result1 = a * b;
+        System.out.println(a +" x " +b +" = " + result1);
+       
+    }
+    
+}
